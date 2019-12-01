@@ -20,6 +20,7 @@ body{
 
 	grid-template-areas: "header header header"
 						  "contenido contenido aside"
+						  "menuanime menuanime aside"
 						  "widget1 widget2 aside"
 						  "footer footer footer";
 }
@@ -41,6 +42,9 @@ body{
 }
 .contenedor .contenido{
 	grid-area: contenido;
+}
+.contenedor .menuanimated{
+	grid-area: menuanime;
 }
 .contenedor .sidebar {
 	grid-area: aside;
