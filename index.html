@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/animated.js"></script>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animation.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="contenedor">
         <header class="header">
@@ -15,17 +20,77 @@
         <main class="contenido">
             <h1>Contenido</h1>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, odit. Ipsa dolorum necessitatibus sit animi voluptate ea optio, exercitationem hic debitis dolores quos magnam earum neque eum sapiente placeat itaque modi error quidem quo? Blanditiis incidunt hic, delectus, at excepturi ea atque perferendis consequatur eligendi, ipsa tenetur nobis illum dolorum iure praesentium? Nemo nobis similique minus temporibus quas, eum corrupti doloremque modi dicta perferendis in voluptatibus hic sint delectus doloribus excepturi recusandae dolore facere velit quaerat quibusdam. Neque dignissimos aperiam aliquam deserunt, dolor dolorem recusandae error? Sapiente rerum earum expedita alias libero neque repellat commodi soluta molestiae nobis quisquam, accusamus voluptatibus nesciunt tempore corporis. Quia, tempore officiis! Nobis eum ratione maiores. Similique praesentium rem eos corrupti natus unde ratione optio reiciendis quis commodi voluptates, blanditiis quam neque nisi modi, ad temporibus quae ex. Velit repellendus commodi beatae libero facere neque quasi in provident ratione non. Harum adipisci labore quisquam voluptas maiores itaque eum iusto veritatis officiis. Consequatur vero autem sint nostrum nisi, obcaecati sequi fugit facere veniam nihil eveniet reiciendis impedit. Consequatur odio perspiciatis quod odit. Dolores explicabo voluptas doloremque quidem maxime libero iusto ratione repellat, eos tenetur rerum, aspernatur nihil culpa laudantium hic cupiditate aliquid placeat distinctio itaque. Esse corrupti fugit eligendi laboriosam, explicabo iusto! Nobis, illum omnis. Explicabo harum hic dolores. Repudiandae laborum accusamus minima rem repellat, error maiores deserunt optio quia atque rerum itaque enim dignissimos maxime sint dolorem, numquam fuga molestiae sapiente molestias nulla quo praesentium necessitatibus? Excepturi soluta ea laboriosam ut. Corporis, eius animi autem ipsum exercitationem nulla nostrum delectus veritatis ipsam dolore? Esse nostrum dicta cupiditate voluptatem minus corrupti atque unde, amet deserunt eveniet, iste ex corporis odit dolore quam facere? Beatae mollitia dolorem illum corporis! Veritatis, distinctio incidunt! Impedit error architecto blanditiis doloribus quo. Nesciunt quis quos voluptate aperiam reprehenderit esse dolore numquam.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, odit. Ipsa dolorum necessitatibus sit
+                animi voluptate ea optio, exercitationem hic debitis dolores quos magnam earum neque eum sapiente
+                placeat itaque modi error quidem quo? Blanditiis incidunt hic, delectus, at excepturi ea atque
+                perferendis consequatur eligendi, ipsa tenetur nobis illum dolorum iure praesentium? Nemo nobis
+                similique minus temporibus quas, eum corrupti doloremque modi dicta perferendis in voluptatibus hic sint
+                delectus doloribus excepturi recusandae dolore facere velit quaerat quibusdam. Neque dignissimos aperiam
+                aliquam deserunt, dolor dolorem recusandae error? Sapiente rerum earum expedita alias libero neque
+                repellat commodi soluta molestiae nobis quisquam, accusamus voluptatibus nesciunt tempore corporis.
+                Quia, tempore officiis! Nobis eum ratione maiores. Similique praesentium rem eos corrupti natus unde
+                ratione optio reiciendis quis commodi voluptates, blanditiis quam neque nisi modi, ad temporibus quae
+                ex. Velit repellendus commodi beatae libero facere neque quasi in provident ratione non. Harum adipisci
+                labore quisquam voluptas maiores itaque eum iusto veritatis officiis. Consequatur vero autem sint
+                nostrum nisi, obcaecati sequi fugit facere veniam nihil eveniet reiciendis impedit. Consequatur odio
+                perspiciatis quod odit. Dolores explicabo voluptas doloremque quidem maxime libero iusto ratione
+                repellat, eos tenetur rerum, aspernatur nihil culpa laudantium hic cupiditate aliquid placeat distinctio
+                itaque. Esse corrupti fugit eligendi laboriosam, explicabo iusto! Nobis, illum omnis. Explicabo harum
+                hic dolores. Repudiandae laborum accusamus minima rem repellat, error maiores deserunt optio quia atque
+                rerum itaque enim dignissimos maxime sint dolorem, numquam fuga molestiae sapiente molestias nulla quo
+                praesentium necessitatibus? Excepturi soluta ea laboriosam ut. Corporis, eius animi autem ipsum
+                exercitationem nulla nostrum delectus veritatis ipsam dolore? Esse nostrum dicta cupiditate voluptatem
+                minus corrupti atque unde, amet deserunt eveniet, iste ex corporis odit dolore quam facere? Beatae
+                mollitia dolorem illum corporis! Veritatis, distinctio incidunt! Impedit error architecto blanditiis
+                doloribus quo. Nesciunt quis quos voluptate aperiam reprehenderit esse dolore numquam.
             </p>
         </main>
+        <section class="menuanimated">
+            <div id="fullpage">
+                <div class="section">
+                    <p id="info">Scroll down...</p>
+                    <div class="time-circle">
+                        <div class="sun"></div>
+                        <div class="moon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="stars">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="water"></div>
+                    </div>
+                    <div id="intro-text">
+                        <h1 href="#">day night simulation</h1>
+                        <h4>by Szymon Stypa, inspired by pens on Codepen</h4>
+                    </div>
+                    <div id="switch">
+                        <div id="circle"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
         <aside class="sidebar">
             <h3>SIDEBAR</h3>
         </aside>
-        <div class="widget-1"><h3>WIDGET-1</h3></div>
-        <div class="widget-2"><h3>WIDGET-2</h3></div>
+        <div class="widget-1">
+            <h3>WIDGET-1</h3>
+        </div>
+        <div class="widget-2">
+            <h3>WIDGET-2</h3>
+        </div>
         <footer class="footer">
             <h3>FOOTER</h3>
         </footer>
     </div>
 </body>
+
 </html>
