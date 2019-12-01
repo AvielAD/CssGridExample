@@ -39,7 +39,24 @@ body{
 	background: #12203E;
 	color: white;
 	grid-area: header;
+	display:flex;
+	justify-content: space-between;
 }
+
+.contenedor .header ul {
+	list-style: none;
+}
+
+.contenedor .header ul li {
+	display: inline-block;
+}
+
+.contenedor .header ul li a {
+	text-decoration: none;
+	color: white;
+	padding-left: 1rem;
+}
+
 .contenedor .contenido{
 	grid-area: contenido;
 }
@@ -48,15 +65,22 @@ body{
 }
 .contenedor .sidebar {
 	grid-area: aside;
+	background: orangered;
 }
 .contenedor .widget-1{
 	grid-area: widget1;
+	background: blue;
+	color: white;
 }
 .contenedor .widget-2{
 	grid-area: widget2;
+	background: blue;
+	color: white;
 }
 .contenedor .footer{
 	grid-area: footer;
+	background: #12203E;
+	color: white;
 }
 
 @media screen and (max-width: 768px){
